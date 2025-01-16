@@ -18,4 +18,4 @@ I am a passionate data analyst committed to uncovering insights and delivering i
 
 # License
 
-This repository is licensed under the [MIT License]().
+This repository is licensed under the MIT License.
