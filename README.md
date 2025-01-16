@@ -16,6 +16,6 @@ I am a passionate data analyst committed to uncovering insights and delivering i
 * Tableau
 * Spreadsheets
 
-# License
+License
 
 This repository is licensed under the MIT License.
