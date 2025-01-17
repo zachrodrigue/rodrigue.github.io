@@ -1,39 +1,56 @@
 <div align="center">
   
-  <h2 align="center">Rodrigue's Portfolio</h2>
+  ![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/jack-portfolio)
+  ![GitHub stars](https://img.shields.io/github/stars/codewithsadee/jack-portfolio?style=social)
+  ![GitHub forks](https://img.shields.io/github/forks/codewithsadee/jack-portfolio?style=social)
+[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
+  [![YouTube Video Views](https://img.shields.io/youtube/views/DdlVKS7MROY?style=social)](https://youtu.be/DdlVKS7MROY)
 
-  Welcome to my personal portfolio website! This site showcases my skills, projects, and achievements in data analysis and related fields. Built using HTML, CSS, and JavaScript, it is fully responsive and optimized for all devices.
+  <br />
+  <br />
+  
+  <img src="./readme-images/project-logo.png" />
 
-  <a href="https://rodrigue.github.io/"><strong>➥ Live Portfolio</strong></a>
+  <h2 align="center">Jack - Personal portfolio</h2>
+
+  This website is fully responsive personal portfolio, <br />Responsive for all devices, built using HTML, CSS, and JavaScript.
+
+  <a href="https://codewithsadee.github.io/jack-portfolio/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
 <br />
 
-### Features
-- Fully responsive design for desktop, tablet, and mobile.
-- Showcases my data analysis projects with links to GitHub repositories.
-- Built using modern web technologies: HTML, CSS, and JavaScript.
+### Demo Screeshots
 
-### Demo Screenshots
-Coming soon.
+![Jack Portfolio Desktop Demo](./readme-images/desktop.png "Desktop Demo")
 
 ### Prerequisites
-Before making any changes or updates, ensure you have the following installed:
-- [Git](https://git-scm.com/downloads) for version control.
+
+Before you begin, ensure you have met the following requirements:
+
+* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
 
 ### Run Locally
-To run this project locally, clone the repository:
+
+To run **jack-portfolio** locally, run this command on your git bash:
+
+Linux and macOS:
 
 ```bash
-git clone https://github.com/zachrodrigue/rodrigue.github.io.git
+sudo git clone https://github.com/codewithsadee/jack-portfolio.git
 ```
+
+Windows:
+
+```bash
+git clone https://github.com/codewithsadee/jack-portfolio.git
+```
+
 ### Contact
-Feel free to reach out to me:
-* [Email](deguenonrodrigue@gmail.com)
-* [LinkedIn](www.linkedin.com/in/rodriguezachariedeguenon)
 
+If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
 
+### License
 
-
-
+This project is **free to use** and does not contains any license.
