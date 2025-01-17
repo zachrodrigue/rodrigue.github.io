@@ -26,4 +26,14 @@ Before making any changes or updates, ensure you have the following installed:
 To run this project locally, clone the repository:
 
 ```bash
-git clone https://github.com/rodrigue/rodrigue.github.io.git
+git clone https://github.com/zachrodrigue/rodrigue.github.io.git
+```
+### Contact
+Feel free to reach out to me:
+* [Email](deguenonrodrigue@gmail.com)
+* [LinkedIn](www.linkedin.com/in/rodriguezachariedeguenon)
+
+
+
+
+
