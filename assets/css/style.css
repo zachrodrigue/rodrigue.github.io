@@ -871,8 +871,24 @@ main { overflow-x: hidden; }
   transition: var(--transition-1);
 }
 
+.tooltip {
+  visibility: hidden;
+  opacity: 0;
+  background-color: var(--banner-blue);
+  color: var(--white);
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: var(--radius-4);
+  position: absolute;
+  z-index: 1;
+  bottom: 125%; /* Position the tooltip above the icon */
+  left: 50%;
+  transform: translateX(-50%);
+  transition: opacity 0.3s ease;
+}
+
 .skill-card:hover .tooltip {
-  transform: translateY(0);
+  visibility: visible;
   opacity: 1;
 }
 
