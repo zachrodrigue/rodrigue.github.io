@@ -117,3 +117,20 @@ document.addEventListener('DOMContentLoaded', () => {
   switchLanguage(defaultLang);
   languageToggle.value = defaultLang; // Set the toggle to the default language
 });
+
+const navToggleBtn = document.querySelector("[data-nav-toggle-btn]");
+const navbar = document.querySelector("[data-navbar]");
+
+navToggleBtn.addEventListener("click", function () {
+  navbar.classList.toggle("active");
+  navToggleBtn.classList.toggle("active");
+});
+
+// Close the menu when a link is clicked
+const navbarLinks = document.querySelectorAll(".navbar-link");
+navbarLinks.forEach((link) => {
+  link.addEventListener("click", function () {
+    navbar.classList.remove("active");
+    navToggleBtn.classList.remove("active");
+  });
+});
