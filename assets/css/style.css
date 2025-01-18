@@ -572,25 +572,13 @@ main { overflow-x: hidden; }
 .social-icon {
   width: 24px; /* Adjust size of Kaggle logo */
   height: 24px;
-  filter: brightness(0) invert(1); /* Make the logo white */
+  filter: none;
 }
 
-.tooltip {
-  visibility: hidden;
-  opacity: 0;
-  background-color: var(--banner-blue);
-  color: var(--white);
-  text-align: center;
-  padding: 5px 10px;
-  border-radius: 4px;
-  position: absolute;
-  z-index: 1;
-  bottom: 125%; /* Position the tooltip above the icon */
-  left: 50%;
-  transform: translateX(-50%);
-  transition: opacity 0.3s ease;
+.skill-card:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
 }
-
 .hero-social-link:hover .tooltip {
   visibility: visible;
   opacity: 1;
@@ -869,6 +857,11 @@ main { overflow-x: hidden; }
   width: 50px;
   height: 50px;
   transition: var(--transition-1);
+}
+.card-icon img {
+  width: 100%;
+  height: auto;
+  filter: none;
 }
 
 .tooltip {
