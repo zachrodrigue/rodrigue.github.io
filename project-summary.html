@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects Summary - Rodrigue Portfolio</title>
+
+  <link rel="icon" type="image/png" href="./assets/images/favicon.png">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&family=Saira+Stencil+One&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top" class="dark_theme">
+
+  <!-- Header (same as main page) -->
+  <header class="header" data-header>
+    <div class="container">
+      <h1 class="h1 logo">
+        <a href="index.html">Rodrigue<span>.</span></a>
+      </h1>
+
+      <div class="navbar-actions">
+        <select name="language" id="lang">
+          <option value="en">En</option>
+          <option value="fr">Fr</option> <!-- Added French option -->
+        </select>
+
+        <button class="theme-btn" aria-label="Change Theme" title="Change Theme" data-theme-btn>
+          <span class="icon"></span>
+        </button>
+      </div>
+
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" title="Toggle Menu" data-nav-toggle-btn>
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+          <li><a href="index.html#home" class="navbar-link" data-lang="en">Home</a></li>
+          <li><a href="index.html#home" class="navbar-link" data-lang="fr">Accueil</a></li>
+          <li><a href="index.html#about" class="navbar-link" data-lang="en">About</a></li>
+          <li><a href="index.html#about" class="navbar-link" data-lang="fr">À propos</a></li>
+          <li><a href="index.html#skills" class="navbar-link" data-lang="en">Skills</a></li>
+          <li><a href="index.html#skills" class="navbar-link" data-lang="fr">Compétences</a></li>
+          <li><a href="index.html#portfolio" class="navbar-link" data-lang="en">Portfolio</a></li>
+          <li><a href="index.html#portfolio" class="navbar-link" data-lang="fr">Portefeuille</a></li>
+          <li><a href="index.html#contact" class="navbar-link" data-lang="en">Contact</a></li>
+          <li><a href="index.html#contact" class="navbar-link" data-lang="fr">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <article class="container">
+      <!-- Project 1: Bellabeat -->
+      <section class="project-details" style="padding-top: 120px; padding-bottom: 30px;">
+        <div class="section-content" style="display: flex; flex-direction: column; gap: 20px;">
+          <div style="display: flex; flex-direction: column; gap: 10px;">
+            <p class="section-subtitle" style="margin: 0;" data-lang="en">Project Summary</p>
+            <p class="section-subtitle" style="margin: 0;" data-lang="fr">Résumé du projet</p>
+            <h2 class="h3 section-title" style="margin: 0;" data-lang="en">Capstone Project: Bellabeat</h2>
+            <h2 class="h3 section-title" style="margin: 0;" data-lang="fr">Projet de fin d'études : Bellabeat</h2>
+          </div>
+
+          <div style="display: grid; grid-template-columns: 1fr 1.2fr; gap: 30px; align-items: start;">
+            <figure class="project-banner" style="margin: 0;">
+              <img src="./assets/images/project-1.png" 
+                   alt="Scatterplot of Total Steps vs. Calories Burned" 
+                   class="w-100"
+                   style="border-radius: var(--radius-12); box-shadow: var(--shadow-1);">
+            </figure>
+
+            <div style="display: flex; flex-direction: column; gap: 20px;">
+              <div class="project-overview">
+                <p class="section-text" data-lang="en">
+                  Analyzed fitness data from non-Bellabeat devices to identify user trends, informing Bellabeat's product development and marketing strategies to enhance customer engagement.
+                </p>
+                <p class="section-text" data-lang="fr">
+                  J'ai analysé les données de fitness provenant d'appareils non Bellabeat pour identifier les tendances des utilisateurs, informant ainsi le développement de produits et les stratégies marketing de Bellabeat afin d'améliorer l'engagement des clients.
+                </p>
+              </div>
+
+              <div class="tools-used">
+                <p class="section-text" data-lang="en">
+                  <strong>Tools used:</strong> R Programming, ggplot2, tidyverse, R Markdown
+                </p>
+                <p class="section-text" data-lang="fr">
+                  <strong>Outils utilisés :</strong> Programmation R, ggplot2, tidyverse, R Markdown
+                </p>
+              </div>
+
+              <a href="https://www.kaggle.com/code/rodriguedeguenon/capstone-project-bellabeat" 
+                 class="btn btn-primary" 
+                 target="_blank"
+                 data-lang="en">View Full Project</a>
+              <a href="https://www.kaggle.com/code/rodriguedeguenon/capstone-project-bellabeat" 
+                 class="btn btn-primary" 
+                 target="_blank"
+                 data-lang="fr">Voir le projet complet sur Kaggle</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Project 2: Placeholder (Commented Out) -->
+      <!--
+      <section class="project-details" style="padding: 30px 0;">
+        <div class="section-content" style="display: flex; flex-direction: column; gap: 20px;">
+          <div style="display: flex; flex-direction: column; gap: 10px;">
+            <p class="section-subtitle" style="margin: 0;" data-lang="en">Project Summary</p>
+            <p class="section-subtitle" style="margin: 0;" data-lang="fr">Résumé du projet</p>
+            <h2 class="h3 section-title" style="margin: 0;" data-lang="en">Project 2: Placeholder</h2>
+            <h2 class="h3 section-title" style="margin: 0;" data-lang="fr">Projet 2 : Placeholder</h2>
+          </div>
+
+          <div style="display: grid; grid-template-columns: 1fr 1.2fr; gap: 30px; align-items: start;">
+            <figure class="project-banner" style="margin: 0;">
+              <img src="./assets/images/project-2.png" 
+                   alt="Project 2 Visualization" 
+                   class="w-100"
+                   style="border-radius: var(--radius-12); box-shadow: var(--shadow-1);">
+            </figure>
+
+            <div style="display: flex; flex-direction: column; gap: 20px;">
+              <div class="project-overview">
+                <p class="section-text" data-lang="en">
+                  Brief description of your second project. Replace this text with your actual project summary.
+                </p>
+                <p class="section-text" data-lang="fr">
+                  Brève description de votre deuxième projet. Remplacez ce texte par le résumé réel de votre projet.
+                </p>
+              </div>
+
+              <div class="tools-used">
+                <p class="section-text" data-lang="en">
+                  <strong>Tools used:</strong> Python, Pandas, Scikit-learn, Matplotlib
+                </p>
+                <p class="section-text" data-lang="fr">
+                  <strong>Outils utilisés :</strong> Python, Pandas, Scikit-learn, Matplotlib
+                </p>
+              </div>
+
+              <a href="#" 
+                 class="btn btn-primary" 
+                 target="_blank"
+                 data-lang="en">View Full Project</a>
+              <a href="#" 
+                 class="btn btn-primary" 
+                 target="_blank"
+                 data-lang="fr">Voir le projet complet</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      -->
+
+      <!-- Project 3: Placeholder (Commented Out) -->
+      <!--
+      <section class="project-details" style="padding: 30px 0;">
+        <div class="section-content" style="display: flex; flex-direction: column; gap: 20px;">
+          <div style="display: flex; flex-direction: column; gap: 10px;">
+            <p class="section-subtitle" style="margin: 0;" data-lang="en">Project Summary</p>
+            <p class="section-subtitle" style="margin: 0;" data-lang="fr">Résumé du projet</p>
+            <h2 class="h3 section-title" style="margin: 0;" data-lang="en">Project 3: Placeholder</h2>
+            <h2 class="h3 section-title" style="margin: 0;" data-lang="fr">Projet 3 : Placeholder</h2>
+          </div>
+
+          <div style="display: grid; grid-template-columns: 1fr 1.2fr; gap: 30px; align-items: start;">
+            <figure class="project-banner" style="margin: 0;">
+              <img src="./assets/images/project-3.png" 
+                   alt="Project 3 Visualization" 
+                   class="w-100"
+                   style="border-radius: var(--radius-12); box-shadow: var(--shadow-1);">
+            </figure>
+
+            <div style="display: flex; flex-direction: column; gap: 20px;">
+              <div class="project-overview">
+                <p class="section-text" data-lang="en">
+                  Brief description of your third project. Replace this text with your actual project summary.
+                </p>
+                <p class="section-text" data-lang="fr">
+                  Brève description de votre troisième projet. Remplacez ce texte par le résumé réel de votre projet.
+                </p>
+              </div>
+
+              <div class="tools-used">
+                <p class="section-text" data-lang="en">
+                  <strong>Tools used:</strong> SQL, Tableau, Excel, Power BI
+                </p>
+                <p class="section-text" data-lang="fr">
+                  <strong>Outils utilisés :</strong> SQL, Tableau, Excel, Power BI
+                </p>
+              </div>
+
+              <a href="#" 
+                 class="btn btn-primary" 
+                 target="_blank"
+                 data-lang="en">View Full Project</a>
+              <a href="#" 
+                 class="btn btn-primary" 
+                 target="_blank"
+                 data-lang="fr">Voir le projet complet</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      -->
+
+      <!-- Project 4: Placeholder (Commented Out) -->
+      <!--
+      <section class="project-details" style="padding: 30px 0;">
+        <div class="section-content" style="display: flex; flex-direction: column; gap: 20px;">
+          <div style="display: flex; flex-direction: column; gap: 10px;">
+            <p class="section-subtitle" style="margin: 0;" data-lang="en">Project Summary</p>
+            <p class="section-subtitle" style="margin: 0;" data-lang="fr">Résumé du projet</p>
+            <h2 class="h3 section-title" style="margin: 0;" data-lang="en">Project 4: Placeholder</h2>
+            <h2 class="h3 section-title" style="margin: 0;" data-lang="fr">Projet 4 : Placeholder</h2>
+          </div>
+
+          <div style="display: grid; grid-template-columns: 1fr 1.2fr; gap: 30px; align-items: start;">
+            <figure class="project-banner" style="margin: 0;">
+              <img src="./assets/images/project-4.png" 
+                   alt="Project 4 Visualization" 
+                   class="w-100"
+                   style="border-radius: var(--radius-12); box-shadow: var(--shadow-1);">
+            </figure>
+
+            <div style="display: flex; flex-direction: column; gap: 20px;">
+              <div class="project-overview">
+                <p class="section-text" data-lang="en">
+                  Brief description of your fourth project. Replace this text with your actual project summary.
+                </p>
+                <p class="section-text" data-lang="fr">
+                  Brève description de votre quatrième projet. Remplacez ce texte par le résumé réel de votre projet.
+                </p>
+              </div>
+
+              <div class="tools-used">
+                <p class="section-text" data-lang="en">
+                  <strong>Tools used:</strong> Python, TensorFlow, Keras, Matplotlib
+                </p>
+                <p class="section-text" data-lang="fr">
+                  <strong>Outils utilisés :</strong> Python, TensorFlow, Keras, Matplotlib
+                </p>
+              </div>
+
+              <a href="#" 
+                 class="btn btn-primary" 
+                 target="_blank"
+                 data-lang="en">View Full Project</a>
+              <a href="#" 
+                 class="btn btn-primary" 
+                 target="_blank"
+                 data-lang="fr">Voir le projet complet</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      -->
+    </article>
+  </main>
+
+  <!-- Footer (same as main page) -->
+  <footer class="footer">
+    <div class="container">
+      <p class="h1 logo">
+        <a href="#">Rodrigue<span>.</span></a>
+      </p>
+      <p class="copyright">
+        <span data-lang="en">&copy; 2025 <a href="#">Rodrigue Deguenon</a>. All rights reserved</span>
+        <span data-lang="fr">&copy; 2025 <a href="#">Rodrigue Deguenon</a>. Tous droits réservés</span>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Go to top button -->
+  <a href="#top" class="go-top" data-go-top title="Go to Top">
+    <ion-icon name="arrow-up"></ion-icon>
+  </a>
+
+  <!-- Scripts -->
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
