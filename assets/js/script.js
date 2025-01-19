@@ -28,11 +28,23 @@ window.addEventListener("scroll", function () {
  */
 const navToggleBtn = document.querySelector("[data-nav-toggle-btn]");
 const navbar = document.querySelector("[data-navbar]");
+const navbarLinks = document.querySelectorAll(".navbar-link");
 
 navToggleBtn.addEventListener("click", function () {
   elemToggleFunc(navToggleBtn);
   elemToggleFunc(navbar);
   elemToggleFunc(document.body);
+});
+
+// Close the navbar when a link is clicked
+navbarLinks.forEach(link => {
+  link.addEventListener("click", () => {
+    if (navbar.classList.contains("active")) {
+      elemToggleFunc(navToggleBtn);
+      elemToggleFunc(navbar);
+      elemToggleFunc(document.body);
+    }
+  });
 });
 
 /**
@@ -116,4 +128,20 @@ document.addEventListener('DOMContentLoaded', () => {
   const defaultLang = localStorage.getItem('language') || 'en'; // Default language is 'en'
   switchLanguage(defaultLang);
   languageToggle.value = defaultLang; // Set the toggle to the default language
+});
+
+/**
+ * Contact Form Submission
+ */
+const contactForm = document.querySelector('.contact-form');
+
+contactForm.addEventListener('submit', (e) => {
+  const phoneInput = document.querySelector("#phone");
+  const phoneNumber = phoneInput.value.trim();
+
+  // Validate the phone number
+  if (!phoneNumber.startsWith("+")) {
+    e.preventDefault(); // Prevent form submission
+    alert("Please include your country code (e.g., +228 for Togo).");
+  }
 });
