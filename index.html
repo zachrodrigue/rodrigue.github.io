@@ -23,6 +23,9 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="./assets/css/style.css">
 
+  <!-- intl-tel-input CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -222,7 +225,7 @@
 
           <div class="skills-toggle" data-toggle-box>
             <button class="toggle-btn active" data-toggle-btn data-lang="en">Skills</button>
-            <button class="toggle-btn active" data-toggle-btn data-lang="fr">Compétences</button>
+            <button class="toggle-btn active" data-toggle-btn data-lang="fr">Skills</button>
             <button class="toggle-btn" data-toggle-btn data-lang="en">Tools</button>
             <button class="toggle-btn" data-toggle-btn data-lang="fr">Outils</button>
           </div>
@@ -231,7 +234,7 @@
         <div class="skills-box" data-skills-box>
           <ul class="skills-list">
             <li data-lang="en">Data Cleaning and Preparation</li>
-            <li data-lang="fr">Nettoyage et préparation des données</li>
+            <li data-lang="fr">Nettoyage et Préparation des données</li>
             <li data-lang="en">Data Visualization</li>
             <li data-lang="fr">Visualisation des données</li>
             <li data-lang="en">SQL</li>
@@ -239,7 +242,7 @@
             <li data-lang="en">R Programming</li>
             <li data-lang="fr">Programmation R</li>
             <li data-lang="en">Data Storytelling</li>
-            <li data-lang="fr">Raconter des histoires avec des données</li>
+            <li data-lang="fr">Narration de données</li>
           </ul>
 
           <ul class="tools-list">
@@ -346,7 +349,8 @@
                   <h3 class="h4 card-title" data-lang="en">Capstone Project: Bellabeat</h3>
                   <h3 class="h4 card-title" data-lang="fr">Projet de fin d'études : Bellabeat</h3>
 
-                  <time class="publish-date" datetime="2025-01">January 2025</time>
+                  <time class="publish-date" datetime="2025-01" data-lang="en">January 2025</time>
+                  <time class="publish-date" datetime="2025-01" data-lang="fr">Janvier 2025</time>
                 </div>
               </div>
             </a>
@@ -443,47 +447,47 @@
           </ul>
         </div>
 
-        <form action="" class="contact-form">
+        <form action="https://formspree.io/f/xjkkqdke" method="POST" class="contact-form">
           <div class="form-wrapper">
             <label for="name" class="form-label" data-lang="en">Name</label>
             <label for="name" class="form-label" data-lang="fr">Nom</label>
-
+        
             <div class="input-wrapper">
               <input type="text" name="name" id="name" required placeholder="e.g John Doe" class="input-field">
               <ion-icon name="person-circle"></ion-icon>
             </div>
           </div>
-
+        
           <div class="form-wrapper">
             <label for="email" class="form-label" data-lang="en">Email</label>
             <label for="email" class="form-label" data-lang="fr">E-mail</label>
-
+        
             <div class="input-wrapper">
               <input type="email" name="email" id="email" required placeholder="e.g johndoe@mail.com" class="input-field">
               <ion-icon name="mail"></ion-icon>
             </div>
           </div>
-
+        
           <div class="form-wrapper">
-            <label for="phone" class="form-label" data-lang="en">Phone</label>
-            <label for="phone" class="form-label" data-lang="fr">Téléphone</label>
-
+            <label for="phone" class="form-label" data-lang="en">Phone (Include Country Code)</label>
+            <label for="phone" class="form-label" data-lang="fr">Téléphone (Inclure le code du pays)</label>
+          
             <div class="input-wrapper">
-              <input type="tel" name="phone" id="phone" required placeholder="Phone Number" class="input-field">
+              <input type="tel" name="phone" id="phone" required placeholder="e.g +228 123456789" class="input-field">
               <ion-icon name="call"></ion-icon>
             </div>
           </div>
-
+        
           <div class="form-wrapper">
             <label for="message" class="form-label" data-lang="en">Message</label>
             <label for="message" class="form-label" data-lang="fr">Message</label>
-
+        
             <div class="input-wrapper">
               <textarea name="message" id="message" required placeholder="Write message..." class="input-field"></textarea>
               <ion-icon name="chatbubbles"></ion-icon>
             </div>
           </div>
-
+        
           <button type="submit" class="btn btn-primary" data-lang="en">Send</button>
           <button type="submit" class="btn btn-primary" data-lang="fr">Envoyer</button>
         </form>
@@ -513,5 +517,7 @@
   <script src="./assets/js/script.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- intl-tel-input JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
 </body>
 </html>
