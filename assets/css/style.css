@@ -468,7 +468,9 @@ body.active { overflow: hidden; }
   transition: var(--transition-1);
 }
 
-.navbar-link:is(:hover, :focus)::before { width: 100%; }
+.navbar-link:is(:hover, :focus)::before {
+  width: 100%;
+}
 
 /*-----------------------------------*\
  * #HERO
@@ -984,14 +986,17 @@ main { overflow-x: hidden; }
   padding: 6px 12px;
   width: max-content;
   box-shadow: var(--shadow-1);
-  transform: translateY(100%);
-  opacity: 0;
+  transform: translateY(0); /* Changed from translateY(100%) to 0 */
+  opacity: 1; /* Changed from 0 to 1 */
   transition: var(--transition-1);
 }
 
-.project-card:is(:hover, :focus) :is(.card-title, .publish-date) {
-  transform: translateY(0);
-  opacity: 1;
+/* Ensure the project title is always visible on mobile */
+@media (max-width: 768px) {
+  .project-card :is(.card-title, .publish-date) {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 .project-card :is(.card-title, .publish-date) {
