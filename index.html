@@ -26,9 +26,7 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&family=Saira+Stencil+One&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&family=Saira+Stencil+One&display=swap" rel="stylesheet">
 </head>
 
 <body id="top" class="dark_theme">
@@ -36,22 +34,19 @@
   <!-- Header -->
   <header class="header" data-header>
     <div class="container">
-
       <h1 class="h1 logo">
         <a href="#">Rodrigue<span>.</span></a>
       </h1>
 
       <div class="navbar-actions">
-
         <select name="language" id="lang">
           <option value="en">En</option>
-          <option value="fr">Fr</option> <!-- Added French option -->
+          <option value="fr">Fr</option>
         </select>
 
         <button class="theme-btn" aria-label="Change Theme" title="Change Theme" data-theme-btn>
           <span class="icon"></span>
         </button>
-
       </div>
 
       <button class="nav-toggle-btn" aria-label="Toggle Menu" title="Toggle Menu" data-nav-toggle-btn>
@@ -62,33 +57,18 @@
 
       <nav class="navbar" data-navbar>
         <ul class="navbar-list">
-          <li>
-            <a href="#home" class="navbar-link" data-lang="en">Home</a>
-            <a href="#home" class="navbar-link" data-lang="fr">Accueil</a>
-          </li>
-
-          <li>
-            <a href="#about" class="navbar-link" data-lang="en">About</a>
-            <a href="#about" class="navbar-link" data-lang="fr">À propos</a>
-          </li>
-
-          <li>
-            <a href="#skills" class="navbar-link" data-lang="en">Skills</a>
-            <a href="#skills" class="navbar-link" data-lang="fr">Compétences</a>
-          </li>
-
-          <li>
-            <a href="#portfolio" class="navbar-link" data-lang="en">Portfolio</a>
-            <a href="#portfolio" class="navbar-link" data-lang="fr">Portefeuille</a>
-          </li>
-
-          <li>
-            <a href="#contact" class="navbar-link" data-lang="en">Contact</a>
-            <a href="#contact" class="navbar-link" data-lang="fr">Contact</a>
-          </li>
+          <li><a href="#home" class="navbar-link" data-lang="en">Home</a></li>
+          <li><a href="#home" class="navbar-link" data-lang="fr">Accueil</a></li>
+          <li><a href="#about" class="navbar-link" data-lang="en">About</a></li>
+          <li><a href="#about" class="navbar-link" data-lang="fr">À propos</a></li>
+          <li><a href="#skills" class="navbar-link" data-lang="en">Skills</a></li>
+          <li><a href="#skills" class="navbar-link" data-lang="fr">Compétences</a></li>
+          <li><a href="#portfolio" class="navbar-link" data-lang="en">Portfolio</a></li>
+          <li><a href="#portfolio" class="navbar-link" data-lang="fr">Portefeuille</a></li>
+          <li><a href="#contact" class="navbar-link" data-lang="en">Contact</a></li>
+          <li><a href="#contact" class="navbar-link" data-lang="fr">Contact</a></li>
         </ul>
       </nav>
-
     </div>
   </header>
 
@@ -103,8 +83,7 @@
           <picture>
             <source srcset="./assets/images/hero-banner.png" media="(min-width: 768px)">
             <source srcset="./assets/images/hero-banner-md.png" media="(min-width: 500px)">
-            <img src="./assets/images/hero-banner-sm.png" alt="A man in a blue shirt with a happy expression"
-              class="w-100">
+            <img src="./assets/images/hero-banner-sm.png" alt="A man in a blue shirt with a happy expression" class="w-100" loading="lazy">
           </picture>
         </figure>
 
@@ -118,12 +97,11 @@
         <ul class="hero-social-list">
           <li>
             <a href="https://www.kaggle.com/rodriguedeguenon" class="hero-social-link" target="_blank">
-              <img src="./assets/images/kaggle.png" alt="Kaggle logo" class="social-icon">
+              <img src="./assets/images/kaggle.png" alt="Kaggle logo" class="social-icon" loading="lazy">
               <div class="tooltip" data-lang="en">Kaggle</div>
               <div class="tooltip" data-lang="fr">Kaggle</div>
             </a>
           </li>
-        
           <li>
             <a href="https://github.com/zachrodrigue" class="hero-social-link" target="_blank">
               <ion-icon name="logo-github"></ion-icon>
@@ -131,7 +109,6 @@
               <div class="tooltip" data-lang="fr">GitHub</div>
             </a>
           </li>
-        
           <li>
             <a href="https://linkedin.com/in/rodriguezachariedeguenon" class="hero-social-link" target="_blank">
               <ion-icon name="logo-linkedin"></ion-icon>
@@ -149,21 +126,23 @@
       <section class="stats" id="stats">
         <ul class="stats-list">
           <li>
-            <a href="#" class="stats-card">
-              <div class="card-icon">
-                <img src="./assets/images/stats-card_icon-1.png" alt="Certificate icon">
-              </div>
-              <h2 class="h2 card-title">
-                <span data-lang="en">8 <strong>Course Certificates</strong></span>
-                <span data-lang="fr">8 <strong>Certificats de cours</strong></span>
-              </h2>
-              <ion-icon name="chevron-forward-outline"></ion-icon>
-            </a>
+            <div class="stats-card">
+              <a href="https://www.credly.com/badges/fbcd0892-053b-4193-bd6c-8176f20082ec/public_url" target="_blank" rel="noopener noreferrer">
+                <div class="card-icon">
+                  <img src="./assets/images/credly-badge.png" alt="Credly badge" loading="lazy">
+                </div>
+                <h2 class="h2 card-title">
+                  <span data-lang="en">Certifications</span>
+                  <span data-lang="fr">Certifications</span>
+                </h2>
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+              </a>
+            </div>
           </li>
           <li>
             <a href="#portfolio" class="stats-card">
               <div class="card-icon">
-                <img src="./assets/images/stats-card_icon-2.png" alt="Project icon">
+                <img src="./assets/images/stats-card_icon-2.png" alt="Project icon" loading="lazy">
               </div>
               <h2 class="h2 card-title">
                 <span data-lang="en">3+ <strong>Data Projects</strong></span>
@@ -175,7 +154,7 @@
           <li>
             <a href="#skills" class="stats-card">
               <div class="card-icon">
-                <img src="./assets/images/stats-card_icon-3.png" alt="Tools icon">
+                <img src="./assets/images/stats-card_icon-3.png" alt="Tools icon" loading="lazy">
               </div>
               <h2 class="h2 card-title">
                 <span data-lang="en">5+ <strong>Analysis Tools</strong></span>
@@ -190,7 +169,7 @@
       <!-- About Section -->
       <section class="about" id="about">
         <figure class="about-banner">
-          <img src="./assets/images/about-banner.png" alt="A man in a light blue shirt with a thinking expression" class="w-100">     
+          <img src="./assets/images/about-banner.png" alt="A man in a light blue shirt with a thinking expression" class="w-100" loading="lazy">
         </figure>
 
         <div class="about-content section-content">
@@ -214,8 +193,8 @@
           </p>
 
           <div class="btn-group">
-            <a href="mailto:your-email@example.com" class="btn btn-secondary" data-lang="en">Hire me</a>
-            <a href="mailto:your-email@example.com" class="btn btn-secondary" data-lang="fr">Engagez-moi</a>
+            <a href="mailto:deguenonrodrigue@gmail.com" class="btn btn-secondary" data-lang="en">Hire me</a>
+            <a href="mailto:deguenonrodrigue@gmail.com" class="btn btn-secondary" data-lang="fr">Engagez-moi</a>
 
             <a href="./assets/Resume_RodrigueZacharieDeguenon.pdf" class="btn btn-secondary" download="Rodrigue_Deguenon_CV" data-lang="en">Download CV</a>
             <a href="./assets/Resume_RodrigueZacharieDeguenon.pdf" class="btn btn-secondary" download="Rodrigue_Deguenon_CV" data-lang="fr">Télécharger CV</a>
@@ -259,78 +238,73 @@
             <li data-lang="fr">SQL</li>
             <li data-lang="en">R Programming</li>
             <li data-lang="fr">Programmation R</li>
-            <li data-lang="en">Storytelling with Data</li>
+            <li data-lang="en">Data Storytelling</li>
             <li data-lang="fr">Raconter des histoires avec des données</li>
           </ul>
 
-      <ul class="tools-list">
-        <li>
-          <div class="skill-card">
-            <div class="class-card-inner">
-              <div class="tooltip" data-lang="en">Excel</div>
-              <div class="tooltip" data-lang="fr">Excel</div>
-              <div class="card-icon">
-                <img src="./assets/images/excel.png" alt="Excel logo">
-              </div>
-            </div>
-          </div>
-        </li>
-
-          <li>
-            <div class="skill-card">
-              <div class="class-card-inner">
-                <div class="tooltip" data-lang="en">Google Sheets</div>
-                <div class="tooltip" data-lang="fr">Google Sheets</div>
-                <div class="card-icon">
-                  <img src="./assets/images/google-sheets.png" alt="Google Sheets logo">
+          <ul class="tools-list">
+            <li>
+              <div class="skill-card">
+                <div class="class-card-inner">
+                  <div class="tooltip" data-lang="en">Excel</div>
+                  <div class="tooltip" data-lang="fr">Excel</div>
+                  <div class="card-icon">
+                    <img src="./assets/images/excel.png" alt="Excel logo" loading="lazy">
+                  </div>
                 </div>
               </div>
-            </div>
-          </li>
-
-           <li>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="class-card-inner">
+                  <div class="tooltip" data-lang="en">Google Sheets</div>
+                  <div class="tooltip" data-lang="fr">Google Sheets</div>
+                  <div class="card-icon">
+                    <img src="./assets/images/google-sheets.png" alt="Google Sheets logo" loading="lazy">
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
               <div class="skill-card">
                 <div class="class-card-inner">
                   <div class="tooltip" data-lang="en">BigQuery</div>
                   <div class="tooltip" data-lang="fr">BigQuery</div>
                   <div class="card-icon">
-                    <img src="./assets/images/bigquery.png" alt="BigQuery logo">
+                    <img src="./assets/images/bigquery.png" alt="BigQuery logo" loading="lazy">
                   </div>
                 </div>
               </div>
             </li>
-
             <li>
               <div class="skill-card">
                 <div class="class-card-inner">
                   <div class="tooltip" data-lang="en">Tableau</div>
                   <div class="tooltip" data-lang="fr">Tableau</div>
                   <div class="card-icon">
-                    <img src="./assets/images/tableau.png" alt="Tableau logo">
+                    <img src="./assets/images/tableau.png" alt="Tableau logo" loading="lazy">
                   </div>
                 </div>
               </div>
             </li>
-
             <li>
               <div class="skill-card">
                 <div class="class-card-inner">
                   <div class="tooltip" data-lang="en">R Studio</div>
                   <div class="tooltip" data-lang="fr">R Studio</div>
                   <div class="card-icon">
-                    <img src="./assets/images/rstudio.png" alt="R Studio logo">
+                    <img src="./assets/images/rstudio.png" alt="R Studio logo" loading="lazy">
                   </div>
                 </div>
               </div>
             </li>
-
             <li>
               <div class="skill-card">
                 <div class="class-card-inner">
                   <div class="tooltip" data-lang="en">Google Analytics</div>
                   <div class="tooltip" data-lang="fr">Google Analytics</div>
                   <div class="card-icon">
-                    <img src="./assets/images/google-analytics.png" alt="Google Analytics logo">
+                    <img src="./assets/images/google-analytics.png" alt="Google Analytics logo" loading="lazy">
                   </div>
                 </div>
               </div>
@@ -365,7 +339,7 @@
             <a href="project-summary.html" class="project-card">
               <div class="project-card-inner">
                 <figure class="card-banner">
-                  <img src="./assets/images/project-1.png" class="w-100" alt="Scatterplot of Total Steps vs. Calories Burned with green points and a red trend line showing a positive correlation.">
+                  <img src="./assets/images/project-1.png" class="w-100" alt="Scatterplot of Total Steps vs. Calories Burned with green points and a red trend line showing a positive correlation." loading="lazy">
                 </figure>
 
                 <div class="card-content">
@@ -377,65 +351,6 @@
               </div>
             </a>
           </li>
-           <!-- Project 2 (Commented Out) -->
-          <!--
-          <li>
-            <a href="#" class="project-card">
-              <div class="project-card-inner">
-                <figure class="card-banner">
-                  <img src="./assets/images/project-2.png" class="w-100" alt="Project 2 description">
-                </figure>
-
-                <div class="card-content">
-                  <h3 class="h4 card-title" data-lang="en">Project 2 Title</h3>
-                  <h3 class="h4 card-title" data-lang="fr">Titre du projet 2</h3>
-
-                  <time class="publish-date" datetime="2025-02">February 2025</time>
-                </div>
-              </div>
-           </a>
-          </li>
-          -->
-
-          <!-- Project 3 (Commented Out) -->
-          <!--
-          <li>
-            <a href="#" class="project-card">
-              <div class="project-card-inner">
-                <figure class="card-banner">
-                  <img src="./assets/images/project-3.png" class="w-100" alt="Project 3 description">
-                </figure>
-
-                <div class="card-content">
-                  <h3 class="h4 card-title" data-lang="en">Project 3 Title</h3>
-                  <h3 class="h4 card-title" data-lang="fr">Titre du projet 3</h3>
-
-                  <time class="publish-date" datetime="2025-03">March 2025</time>
-                </div>
-              </div>
-            </a>
-          </li>
-          -->
-
-          <!-- Project 4 (Commented Out) -->
-          <!--
-          <li>
-            <a href="#" class="project-card">
-              <div class="project-card-inner">
-                <figure class="card-banner">
-                  <img src="./assets/images/project-4.png" class="w-100" alt="Project 4 description">
-                </figure>
-
-                <div class="card-content">
-                  <h3 class="h4 card-title" data-lang="en">Project 4 Title</h3>
-                  <h3 class="h4 card-title" data-lang="fr">Titre du projet 4</h3>
-
-                  <time class="publish-date" datetime="2025-04">April 2025</time>
-                </div>
-             </div>
-            </a>
-          </li>
-          -->
         </ul>
       </section>
 
@@ -520,7 +435,7 @@
                   <a href="https://www.kaggle.com/rodriguedeguenon" class="contact-social-link" target="_blank">
                     <div class="tooltip" data-lang="en">Kaggle</div>
                     <div class="tooltip" data-lang="fr">Kaggle</div>
-                    <img src="./assets/images/kaggle.png" alt="Kaggle logo" class="social-icon">
+                    <img src="./assets/images/kaggle.png" alt="Kaggle logo" class="social-icon" loading="lazy">
                   </a>
                 </li>
               </ul>
