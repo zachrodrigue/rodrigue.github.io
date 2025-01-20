@@ -144,4 +144,32 @@ contactForm.addEventListener('submit', (e) => {
     e.preventDefault(); // Prevent form submission
     alert("Please include your country code (e.g., +228 for Togo).");
   }
+    // Additional validation for other fields
+  const nameInput = document.querySelector("#name");
+  const emailInput = document.querySelector("#email");
+  const messageInput = document.querySelector("#message");
+
+  if (nameInput.value.trim() === "") {
+    e.preventDefault();
+    alert("Please enter your name.");
+    nameInput.focus();
+    return;
+  }
+
+  if (emailInput.value.trim() === "" || !emailInput.value.includes("@")) {
+    e.preventDefault();
+    alert("Please enter a valid email address.");
+    emailInput.focus();
+    return;
+  }
+
+  if (messageInput.value.trim() === "") {
+    e.preventDefault();
+    alert("Please enter a message.");
+    messageInput.focus();
+    return;
+  }
+
+  // If all validations pass, show a success message
+  alert("Thank you for your message! We will get back to you soon.");
 });
