@@ -5,8 +5,6 @@ Welcome to my data analysis portfolio! This repository showcases my skills in da
 ## 🚀 Features
 
 - **Interactive Portfolio Website**: A responsive and visually appealing website to showcase my projects and skills.
-- **Multi-language Support**: Available in both English and French.
-- **Dark/Light Theme**: Toggle between themes for better user experience.
 - **Project Showcase**: Detailed descriptions of my data analysis projects.
 - **Contact Form**: Easy way to get in touch with me for collaboration or inquiries.
 
@@ -27,6 +25,12 @@ Welcome to my data analysis portfolio! This repository showcases my skills in da
    - **Tools Used**: R Programming, ggplot2, tidyverse, R Markdown
    - **View Project**: [Kaggle Notebook](https://www.kaggle.com/code/rodriguedeguenon/capstone-project-bellabeat)
 
+### 2. **Cyclistic Bike Share Analysis**
+   - **Description**: Analyzed cyclitic bike share data to identify rider behavior differences to inform marketing strategies to convert casual riders to annual riders. 
+   - **Tools Used**: R Programming, Tableau
+   - **Read Project Report**: [Read Project Report](./assets/documents/cyclistic_report.pdf)
+   - **View Project Dashboard**: [View Project Dashboard](https://public.tableau.com/app/profile/rodrigue.deguenon/viz/CyclisticBikeShareAnalysis_17374684424790/Dashboard1)
+
 *More projects coming soon! Stay tuned for exciting data analysis projects.*
 
 ## 👨‍💻 About Me
@@ -35,12 +39,12 @@ Hi, I’m Rodrigue Deguenon, a passionate data analyst with a strong interest in
 
 ## 🌐 Live Demo
 
-Check out my portfolio website: [Live Demo](https://your-username.github.io/your-repo-name/)
+Check out my portfolio website: [Live Demo](https://zachrodrigue.github.io/)
 
 ## 📸 Screenshots
 
-![Home Page](./assets/images/screenshot-home.png)
-![Projects Page](./assets/images/screenshot-projects.png)
+![Home Page](./img/screenshot-home.png)
+![Projects Page](./img/screenshot-projects.png)
 
 ## 📄 License
 
